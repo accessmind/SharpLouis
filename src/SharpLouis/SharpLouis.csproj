@@ -28,8 +28,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Content is included in packages by default. Much more detail on packing can be found at
-             https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets -->
         <!-- <Content Include="LibLouis\**" Exclude="LibLouis\liblouis.dll"> -->
         <Content Include="LibLouis\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
