@@ -3,6 +3,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Platforms>x64</Platforms>
+        <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
         <Product>SharpLouis</Product>
         <Version>1.0.1</Version>
         <Description>.NET wrapper for LibLouis, the open-source Braille translator and back-translator library</Description>
@@ -33,6 +34,7 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Visible>false</Visible>
             <PackageCopyToOutput>true</PackageCopyToOutput>
+            <PackagePath>lib/$(TargetFramework)/LibLouis</PackagePath>
         </Content>
         <!-- <Content Include="./LibLouis/liblouis.dll" PackagePath="runtimes/win-x64/native" /> -->
         <None Include="../../README.md" Pack="true" Visible="false" PackagePath="/docs" />
